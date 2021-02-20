@@ -1,4 +1,4 @@
-Model 1
+#Model 1
 
   **Set up:**
 * Set Transforms, Data Loader.
@@ -12,7 +12,7 @@ Model 1
 * Extremely Heavy Model for such a problem
 * Not a bad model, as there is not much over fitting. Loss seems to be decreasing steadily.
 
-Model 2
+#Model 2
 
   **Set up:**
 * Replace FC with 1x1(equivalent to FC but conv) followed by GAP. (hugely reduces params)
@@ -24,7 +24,9 @@ Model 2
   **Analysis:**
 * Extremely Heavy Model for such a problem
 * Not a bad model, as there is not much over fitting. Loss seems to be decreasing steadily.
-Model 3
+
+
+#Model 3
 
   **Set up:**
 * Add Batch Norm.
@@ -36,7 +38,7 @@ Model 3
   **Analysis:**
 * Not a bad model, as there is not much over fitting. Loss seems to be decreasing steadily.
 
-Model 4
+#Model 4
 
   **Set up:**
 * Changed structure, moved maxpool to after 4 th conv.
