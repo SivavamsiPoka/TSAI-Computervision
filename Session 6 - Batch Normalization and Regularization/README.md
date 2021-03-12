@@ -11,10 +11,8 @@
 
 # Files
 
-* In Json each image name wise information will be available
-* Image name attribute contains regions
-* regions contains index of each box highlight eg:0,1,2,.. ,each highlight number contains shape_attributes and region_attributes
-* shape_attributes contains x,y are the centroid cordinates of highlighted box, width and height of highlight box
-* region_attributes contains class attributes such that highlight names such as hard hat,boot,vest,mask
-
-
+* utils.py is used for train and validation, model saving, running epoches based dictionary of regularization
+* feedforward.py is have model architectures
+* gbn.py have ghost batch normaliztion
+* data.py is used for dataloaders,transformation.
+* notebook integration for ploting above images
